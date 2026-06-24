@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <title>Poljoprivredno gazdinstvo Mijatović</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source Sans Pro">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: "Source Sans Pro"; background: #f7f4ec; }
+    h1,h2,h3,h4,h5,h6 { font-family: "Roboto"; }
+
+    .brand-color { background-color: #6b8e23 !important; color: white !important; }
+    .accent { background-color: #e6d3a3 !important; }
+    .hero-title { text-shadow: 2px 2px 8px #000; }
+    .section-title { color: #4f6f1f; }
+    .card-img { height: 260px; object-fit: cover; }
+    a { text-decoration: none; }
+  </style>
+</head>
+
+<body class="w3-margin">
+
+<!-- Navigation -->
+<div class="w3-bar w3-white w3-card w3-padding">
+  <h2 class="w3-left w3-tag brand-color w3-round">PG MIJATOVIĆ</h2>
+
+  <a href="#Contact" class="w3-hide-small w3-bar-item w3-button w3-right">KONTAKT</a>
+  <a href="#About" class="w3-hide-small w3-bar-item w3-button w3-right">O NAMA</a>
+  <a href="#Products" class="w3-hide-small w3-bar-item w3-button w3-right">PROIZVODI</a>
+  <a href="#Production" class="w3-hide-small w3-bar-item w3-button w3-right">PROIZVODNJA</a>
+  <a href="#Home" class="w3-hide-small w3-bar-item w3-button w3-right">POČETNA</a>
+
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-medium w3-hide-large" onclick="myFunction()">☰</a>
+</div>
+
+<div id="mobileMenu" class="w3-bar-block w3-white w3-hide w3-hide-large w3-small">
+  <a href="#Home" class="w3-bar-item w3-button">POČETNA</a>
+  <a href="#Production" class="w3-bar-item w3-button">PROIZVODNJA</a>
+  <a href="#Products" class="w3-bar-item w3-button">PROIZVODI</a>
+  <a href="#About" class="w3-bar-item w3-button">O NAMA</a>
+  <a href="#Contact" class="w3-bar-item w3-button">KONTAKT</a>
+</div>
+
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Hero -->
+  <header class="w3-display-container w3-wide" id="Home">
+    <img class="w3-image" src="images/mijatovic-hero.jpg" alt="Poljoprivredno gazdinstvo Mijatović" width="1600" height="900">
+
+    <div class="w3-display-left w3-padding-large">
+      <h1 class="w3-text-white hero-title">POLJOPRIVREDNO GAZDINSTVO</h1>
+      <h1 class="w3-jumbo w3-text-white w3-hide-small hero-title"><b>MIJATOVIĆ</b></h1>
+      <p class="w3-large w3-text-white hero-title">Domaća proizvodnja, kvalitet i tradicija.</p>
+      <p>
+        <a href="#Contact" class="w3-button w3-round-large brand-color w3-padding-large w3-large">
+          Kontaktirajte nas
+        </a>
+      </p>
+    </div>
+  </header>
+
+  <!-- Production -->
+  <div class="w3-row-padding w3-padding-64" id="Production">
+    <div class="w3-center">
+      <h2 class="w3-wide section-title">NAŠA PROIZVODNJA</h2>
+      <p class="w3-opacity"><i>Od njive do trpeze</i></p>
+      <p class="w3-large w3-left-align">
+        Poljoprivredno gazdinstvo Mijatović bavi se proizvodnjom domaćih poljoprivrednih proizvoda uz pažljiv izbor semena,
+        odgovoran rad na zemljištu i posvećenost kvalitetu. Naš cilj je da kupcima ponudimo sveže, proverene i domaće proizvode.
+      </p>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4 w3-white">
+        <img src="images/proizvodnja-1.jpg" class="card-img" style="width:100%" alt="Ratarska proizvodnja">
+        <div class="w3-container">
+          <h3>Voćarska proizvodnja</h3>
+          <p>Uzgoj kultura na otvorenom, uz poštovanje prirodnih uslova i potreba zemljišta.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4 w3-white">
+        <img src="images/proizvodnja-2.jpg" class="card-img" style="width:100%" alt="Povrtarska proizvodnja">
+        <div class="w3-container">
+          <h3>Voćarstvo</h3>
+          <p>Sveže voće proizvedeno sa pažnjom, za domaćinstva, pijace i lokalne kupce.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4 w3-white">
+        <img src="images/proizvodnja-3.jpg" class="card-img" style="width:100%" alt="Domaći proizvodi">
+        <div class="w3-container">
+          <h3>Domaći kvalitet</h3>
+          <p>Proizvodi sa gazdinstva namenjeni kupcima koji cene svežinu i poreklo hrane.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Products -->
+  <div class="w3-white w3-padding-64" id="Products">
+    <div class="w3-container">
+      <div class="w3-center">
+        <h2 class="w3-wide section-title">PROIZVODI</h2>
+        <p class="w3-opacity"><i>Ponuda zavisi od sezone i dostupnosti</i></p>
+      </div>
+
+      <div class="w3-row-padding">
+        <div class="w3-third">
+          <img src="images/proizvod-1.jpg" class="card-img w3-hover-opacity" style="width:100%">
+          <h3>Sezonsko voće</h3>
+          <p>Sveži proizvodi sa gazdinstva dostupni u periodu berbe.</p>
+        </div>
+
+        <div class="w3-third">
+          <img src="images/proizvod-2.jpg" class="card-img w3-hover-opacity" style="width:100%">
+          <h3>Povrtarske kulture</h3>
+          <p>Proizvodnja povrća i drugih kultura u skladu sa potrebama tržišta.</p>
+        </div>
+
+        <div class="w3-third">
+          <img src="images/proizvod-3.jpg" class="card-img w3-hover-opacity" style="width:100%">
+          <h3>Prodaja sa gazdinstva</h3>
+          <p>Mogućnost direktnog dogovora i poručivanja dostupnih proizvoda.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About -->
+  <div class="w3-padding-64 accent" id="About">
+    <div class="w3-container">
+      <h2 class="w3-wide section-title w3-center">O GAZDINSTVU</h2>
+      <p class="w3-large">
+        PG Mijatović je porodično poljoprivredno gazdinstvo koje neguje odgovoran pristup proizvodnji,
+        poštuje tradiciju i oslanja se na iskustvo, rad i kvalitet. Verujemo da dobra hrana počinje na dobro obrađenoj zemlji.
+      </p>
+    </div>
+  </div>
+
+  <!-- Contact -->
+  <div class="w3-white w3-padding-64" id="Contact">
+    <div class="w3-container">
+      <div class="w3-center">
+        <h2 class="w3-wide section-title">KONTAKT</h2>
+        <p class="w3-opacity"><i>Za porudžbine, saradnju i dodatne informacije</i></p>
+      </div>
+
+      <div class="w3-row-padding">
+        <div class="w3-half">
+          <p><i class="fa fa-map-marker"></i> Mesto / opština</p>
+          <p><i class="fa fa-phone"></i> Telefon: +381 XX XXX XXXX</p>
+          <p><i class="fa fa-envelope"></i> Email: kontakt@example.com</p>
+          <p><i class="fa fa-facebook-official"></i> Facebook / Instagram</p>
+        </div>
+
+        <div class="w3-half">
+          <form action="#" target="_blank">
+            <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Ime i prezime" required></p>
+            <p><input class="w3-input w3-padding-16 w3-border" type="tel" placeholder="Telefon" required></p>
+            <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Poruka" required></p>
+            <p><button class="w3-button w3-round-large brand-color w3-block" type="submit">POŠALJI PORUKU</button></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<footer class="w3-container brand-color w3-center w3-padding-32">
+  <p>Poljoprivredno gazdinstvo Mijatović</p>
+  <p>
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+  </p>
+  <p class="w3-small">Izrada sajta: Express Web</p>
+</footer>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("mobileMenu");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
