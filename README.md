@@ -1,33 +1,59 @@
-# 👋 Hello developer!
-This is one of the many templates available from W3schools. Check our [tutorials for frontend development](https://www.w3schools.com/where_to_start.asp) to learn the basics of [HTML](https://www.w3schools.com/html/default.asp) and [CSS](https://www.w3schools.com/css/default.asp). 🦄
+# Poljoprivredno gazdinstvo Mijatović
 
+Prezentacioni sajt za Poljoprivredno gazdinstvo Mijatović.
 
-## 🏗 What's next?
-Customize this template to make it your own. Remember to make your layout responsive - if you want your site to look good on smaller screens like mobile. 
+## O projektu
 
-## 🎨 Where to find everything
+Ovaj projekat predstavlja jednostavan i moderan prezentacioni sajt namenjen predstavljanju poljoprivrednog gazdinstva, njegovih proizvoda, proizvodnih kapaciteta i kontakt informacija.
 
-- **External style sheet:** The template you chose is built with [W3CSS](https://www.w3schools.com/w3css/default.asp), placed in an external style sheet. You can either replace that style sheet - or keep it simple and leave it in.  
-	[Go to tutorial about W3CSS](https://www.w3schools.com/w3css/default.asp)
+Cilj sajta je da potencijalnim kupcima i poslovnim partnerima omogući brz uvid u ponudu gazdinstva kroz preglednu i responzivnu web prezentaciju.
 
-- **Fonts:** Explore the options from **Google fonts** and add your favorite.  
-	[Go to tutorial about fonts](https://www.w3schools.com/w3css/w3css_fonts_google.asp)
+## Funkcionalnosti
 
-- **Icons:** Icons are from **Fontawesome**. You can reuse those and choose other free icons from their free library.  
-	[Go to tutorial about Fontawesome](https://www.w3schools.com/icons/fontawesome5_intro.asp)
+* Početna (Hero) sekcija
+* Predstavljanje gazdinstva
+* Prikaz proizvodnje
+* Galerija proizvoda
+* Kontakt forma
+* Responzivan dizajn za mobilne uređaje
+* Integracija društvenih mreža
 
-- **Images:** Replace the images by uploading your own and updating their URLs.  
-	[Go to article about how to upload files](https://support.w3schools.com/hc/en-gb/articles/4410414928017)
+## Tehnologije
 
-> ⚡️ **Tip:** [Set up Google Analytics](https://www.w3schools.com/howto/howto_google_analytics.asp) to get valuable insights about your space and visitors. 
+* HTML5
+* CSS3
+* W3.CSS
+* JavaScript
+* Font Awesome
 
+## Struktura projekta
 
-### ⛑ Need support?
-[Join our Discord community](https://discord.gg/6Z7UaRbUQM) and ask questions in the **#spaces-general** channel.
+```text
+/
+├── index.html
+├── images/
+│   ├── hero.jpg
+│   ├── proizvodnja-1.jpg
+│   ├── proizvodnja-2.jpg
+│   ├── proizvodnja-3.jpg
+│   └── ...
+└── README.md
+```
 
+## Demo verzija
 
-### 🚀 Upgrade to Pro
-[Upgrade your account](https://billing.w3schools.com/products/spaces) to boost your space and take your projects to the next level; more requests, more storage and more power for up to 10 spaces.
+Ovaj repozitorijum trenutno sadrži demonstracionu verziju sajta koja će biti dalje prilagođavana prema zahtevima klijenta.
 
+## Autor
 
-Happy learning!
+Express Web
+
+Web dizajn, razvoj web aplikacija i digitalna rešenja za mala i srednja preduzeća.
+
+Website: https://express-web.express
+Email: [info@express-web.express](mailto:info@express-web.express)
+
+---
+
+© 2026 Express Web. All rights reserved.
+
